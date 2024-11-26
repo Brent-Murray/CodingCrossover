@@ -29,3 +29,13 @@ This repository provides a side-by-side comparison of how to perform common geom
 library(terra)   # For raster operations
 library(sf)      # For vector operations
 library(dplyr)   # For data manipulation
+```
+
+### Python
+```python
+# Import libraries
+import rasterio               # For raster operations
+import geopandas as gpd       # For vector data
+import numpy as np            # For numerical data
+import pandas as pd           # For tabular data manipulation
+```
