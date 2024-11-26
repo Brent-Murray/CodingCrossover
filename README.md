@@ -3,13 +3,16 @@ This repository provides a side-by-side comparison of how to perform common geom
 
 ---
 
-## Library Overview
+## Common Geomatics Libraries
 
 ### R Libraries
 | **Library**   | **Description**                                                                                   |
 |---------------|---------------------------------------------------------------------------------------------------|
 | **`terra`**   | For spatial data manipulation, raster data processing, and geospatial analysis.                  |
 | **`sf`**      | For handling vector spatial data, including shapefiles, GeoJSON, and other formats.              |
+| **`dplyr`**   | For data manipulation.                                                                           |
+| **`caret`**   | For training and plotting classification and regression models.                                  |
+| **`ggplot2`** | For creating graphics with provided data.                                                        |
 
 ### Python Libraries
 | **Library**        | **Description**                                                                                   |
@@ -18,6 +21,10 @@ This repository provides a side-by-side comparison of how to perform common geom
 | **`numpy`**        | For numerical data manipulation, often used with raster data.                                    |
 | **`pandas`**       | For tabular data manipulation.                                                                   |
 | **`geopandas`**    | For handling vector spatial data, extending `pandas` to work with geospatial formats.            |
+| **`shapely`**      | For manipulation and analysis of geometric objects.                                              |
+| **`scikit-learn`** | For training classification, regression, and clustering models, and data preprocessing.          |
+| **`matplotlib`**   | For creating graphics with provided data.                                                        |
+
 
 ---
 
@@ -29,6 +36,7 @@ This repository provides a side-by-side comparison of how to perform common geom
 library(terra)   # For raster operations
 library(sf)      # For vector operations
 library(dplyr)   # For data manipulation
+library(ggplot2) # For creating visualizations
 ```
 
 ### Python
@@ -38,6 +46,7 @@ import rasterio                                                     # For raster
 import geopandas as gpd                                             # For vector data
 import numpy as np                                                  # For numerical data
 import pandas as pd                                                 # For tabular data manipulation
+import matplotlib.pyplot as plt                                     # For creating visulizations
 from rasterio.features import rasterize                             # For rasterizing vector data
 from rasterio.mask import mask                                      # For masking raster data
 from rasterio.warp import calculate_default_transform, reproject    # For raster reprojection
