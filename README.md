@@ -1,4 +1,4 @@
-# Geomatics Coding Crossover: Leveraging Geomatics R Skills in Python
+# Geomatics Coding Crossover: Leveraging Your Geomatics R Skills in Python
 This repository provides a side-by-side comparison of how to perform common geomatics tasks in **R** and **Python**. It focuses on the libraries `terra` and `sf` in R, and `rasterio`, `numpy`, `pandas`, and `geopandas` in Python.
 
 ---
